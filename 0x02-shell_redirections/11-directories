@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | grep -path . -print | wc -l
+find /directory/ -maxdepth 1 -type d -print| wc -l

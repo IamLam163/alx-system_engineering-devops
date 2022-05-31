@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | grep -path | wc -l
+ls -l | grep -path . -print | wc -l

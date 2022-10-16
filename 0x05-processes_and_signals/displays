@@ -1,0 +1,22 @@
+Script started on 2022-10-16 10:12:06-07:00 [TERM="xterm" TTY="/dev/pts/83" COLUMNS="80" LINES="24"]
+# To infinity and beyond
+sh: 1: To: not found
+# ^[[A\     "To infinity and beyond
+> "
+sh: 3: To infinity and beyond
+: not found
+# "To infinitry  y and beyond"
+sh: 4: To infinity and beyond: not found
+# clear
+[H[2J[3J# ^C
+# ^C
+# ^C
+# ^A^C
+# ^C
+# ^C
+# cleat r
+[H[2J[3J# exit()
+sh: 7: Syntax error: Bad function name
+# exit
+
+Script done on 2022-10-16 10:13:33-07:00 [COMMAND_EXIT_CODE="2"]

@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
-# script that:
-#displays 4 and then bad luck from China for the 4th loop iteration
-#displays 9 and then bad luck from Japan for the 9th loop iteration
-#displays 17 and then bad luck from Italy for the 17th loop iteration
+# script prints 1 to 20; "bad luck from China" the 4th iteration,
+# "bad luck from Japan" the 9th iteration,
+# "bad luck from Italy" the 17th
 
 current=1
 while [ "$current" -le 20 ]
 do
-	echo "current"
-	case $current in
-		"4") echo "bad luck from China";;
-		"9") echo "bad luck from Japan";;
-		"17") echo "bad luck from Italy";;
-	esac
-	(( current++ ))
+    echo "$current"
+    case $current in
+	4) echo "bad luck from China" ;;
+	9) echo "bad luck from Japan" ;;
+	17) echo "bad luck from Italy" ;;
+    esac
+    (( current++ ))
 done

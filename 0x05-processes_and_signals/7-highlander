@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#script kills another script and displays a message
+msg()
+{
+	echo "I aminvincible!!!"
+}
+trap "msg" SIGTERM
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done

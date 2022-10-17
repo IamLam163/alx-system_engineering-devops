@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Sciript lists content of current directory with name after the first dash
+
+files="$(ls)"
+for f in $files;
+do
+    echo "$f" | cut -d "-" -f2
+done

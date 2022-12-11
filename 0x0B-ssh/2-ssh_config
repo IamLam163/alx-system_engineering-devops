@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Configuring local ssh file to connect to a server
+#without typing a password
+
+Host 54.236.30.13
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school

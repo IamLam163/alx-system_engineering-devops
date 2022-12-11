@@ -1,2 +1,5 @@
 #!/usr/bin/bash
+#Script connects to my server using the private key
+
+
 ssh -i ~/.ssh/school ubuntu@54.236.30.13

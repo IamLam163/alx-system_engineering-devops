@@ -1,0 +1,7 @@
+cat ~/.ssh/id_rsa.pub | ssh ubuntu@54.89.21.208|"mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys"
+
+
+mkdir -p /home/user_name/.ssh && touch /home/user_name/.ssh/authorized_keys
+vim /home/user_name/.ssh/authorized_keys
+chmod 700 /home/user_name/.ssh && chmod 600 /home/user_name/.ssh/authorized_keys
+chown -R username:username /home/username/.ssh

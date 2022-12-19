@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # This script configures a new nginx server and adds a header
 
 sudo apt-get -y update

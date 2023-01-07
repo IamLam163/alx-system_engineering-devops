@@ -1,0 +1,1 @@
+This directory contains a link to my article "0x11. What happens when you type google.com in your browser and press Enter". https://medium.com/@olamidealiyu/what-happens-when-you-type-google-com-in-your-browser-and-press-enter-14745d0b5e28

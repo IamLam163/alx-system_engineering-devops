@@ -1,4 +1,4 @@
-** Installing mysql on both servers **
+**Installing mysql on both servers**
 
 * task-0 in this directory installs a specific version of mysql
 

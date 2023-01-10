@@ -1,5 +1,6 @@
 ** Installing mysql on both servers **
-task-0 in this directory installs a specific version of mysql
+
+* task-0 in this directory installs a specific version of mysql
 
 * task-1 steps:
 - run the script with : cat mysql | sudo mysql -hlocalhost -uroot -p

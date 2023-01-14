@@ -20,8 +20,8 @@
 
 
 *** If you want to uninstall mysql and start from scratch ***
-sudo apt-get remove --purge mysql-server
-sudo apt-get remove --purge mysql-client
-sudo apt-get remove --purge mysql-common
-sudo apt autoremove
+- sudo apt-get remove --purge mysql-server
+- sudo apt-get remove --purge mysql-client
+- sudo apt-get remove --purge mysql-common
+- sudo apt autoremove
 

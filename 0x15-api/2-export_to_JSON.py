@@ -19,13 +19,14 @@ def to_json():
     for todo in todos.json():
         """get a dictionary of todos"""
         if todo.get('userId') == int(argv[1]):
-            TASK_STATUS_TITLE.append((todo.get('completed'), todo.get('title')))
-
+            TASK_STATUS_TITLE.append((todo.get('completed'),
+                                      todo.get('title')))
 
         """export to json"""
         file = []
         for task in TASK_STATUS_TITLE:
-            file.append({"task": task[1], "completed": task[0], "username": USERNAME})
+            file.append({"task": task[1], "completed": task[0],
+                         "username": USERNAME})
         data = {str(argv[1]): file}
         filename = "{}.json".format(argv[1])
         with open(filename, "w", encoding='utf8') as f:

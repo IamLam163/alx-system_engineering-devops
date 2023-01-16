@@ -31,5 +31,8 @@ def show_id():
         print("\t {}".format(task))
 
 if __name__ == "__main__":
-    show_id()
+    if len(argv) > 1:
+        show_id()
+    else:
+        print("You must add a UserId!")
     

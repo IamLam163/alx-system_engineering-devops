@@ -16,7 +16,8 @@ def to_csv():
     todos = requests.get("http://jsonplaceholder.typicode.com/todos")
     for todo in todos.json():
         if todo.get('userId') == int(argv[1]):
-            TASK_STATUS_TITLE.append((todo.get('completed'), todo.get('title')))
+            TASK_STATUS_TITLE.append((todo.get('completed'),
+                                      todo.get('title')))
 
     """export to csv"""
     filename = "{}.csv".format(argv[1])

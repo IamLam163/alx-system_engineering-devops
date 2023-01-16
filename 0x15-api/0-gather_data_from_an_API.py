@@ -20,7 +20,7 @@ def show_id():
     for todo in todos.json():
         """get a dictionary of todos"""
         if todo.get('userId') == int(argv[1]):
-            TOTAL_NUM_OF_TASKS =+ 1
+            TOTAL_NUM_OF_TASKS += 1
             if todo.get('completed') is True:
                 NUMBER_OF_DONE_TASKS += 1
                 TASK_TITLE.append(todo.get('title'))
